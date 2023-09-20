@@ -13,10 +13,23 @@ function App() {
             </ul>
         </nav>
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello world !
-        </p>
       </header>
+      <div class="Rasp_chargement">
+          <div class="box">
+            <svg>
+              <defs>
+                <linearGradient id="Gradient" gradientTransform="rotate(90)">
+                  <stop offset="5%" stopColor='red'/>
+                  <stop offset="50%" stopColor='orange'/>
+                  <stop offset="95%" stopColor='green'/>
+                </linearGradient>
+              </defs>
+              <circle cx="70px" cy="70px" r="70px" fill='url(#Gradient)'>
+              </circle>
+            </svg>
+            <span>%</span>
+          </div>
+        </div>
     </div>
   );
 }

@@ -1,0 +1,1 @@
+% --> offset(CPU, GPU, Ram) : 440-(x/100*440)
